@@ -1,6 +1,57 @@
 .show-main {
   width: 100%;
   height: 100vh;
-  background-image: url("irina-murza-vENEN2cryYQ-unsplash.jpg");
-  background-size: cover;
+  overflow: hidden;
 }
+
+.show-header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+}
+
+.title {
+  width: 500px;
+  height: 100px;
+}
+
+.show-title {
+  width: 500px;
+  height: 100px;
+  font-family: arial black;
+  font-size: 50px;
+  line-height: 150px;
+  margin-left: 20px;
+}
+
+.show-explanation {
+  margin-top: 30px;
+  margin-left: 30px;
+  
+}
+
+p {
+  font-family: arial black;
+}
+
+.show-link {
+  text-decoration: none;
+  color: black;
+  font-family: arial black;
+  line-height: 150px;
+  margin-left: 150px;
+}
+
+.show-center {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
