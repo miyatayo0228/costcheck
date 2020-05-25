@@ -2,22 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>テスト2</title>
+    <title>Cost✂︎Check</title>
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <div class="main">
       <div class="main-header">
         <div class="main-title">
-          <h1>Cost✂︎Check</</h1>
+          <h1>Cost✂︎Check</h1>
         </div>
         <div class="main-link">
           
           
           <% if user_signed_in? %>
           <div class="user_nav grid-6">
-            <%= link_to  "◆メモを投稿", "#", class: "link" %>
-            <%= link_to  "◆投稿一覧", "#", class: "link" %>
+            <%= link_to  "◆メモを書く", new_post_path, class: "link" %>
+            <%= link_to  "◆メモを見る",posts_path, class: "link" %>
             <%= link_to  "◆スケジュール", "https://calendar.google.com/calendar/r/day/2020/5/21", class: "link" %>
             <%= link_to  "◆マイデータ", "#", class: "link" %>
             <%= link_to "◆ユーザー情報編集", edit_user_path(current_user), class: 'link' %>

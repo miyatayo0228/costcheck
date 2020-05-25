@@ -1,0 +1,13 @@
+<div class="content__title">
+  メモの作成
+</div>
+
+<%= form_tag('/posts', method: :post) do %>
+  <input type="text" placeholder="title" name="title">
+  <textarea placeholder="Comment" rows="10" name="content"></textarea>
+  <input type="submit" value="保存">
+<% end %>
+
+<%= link_to  "◆メモを見る", posts_path, class: "show-link" %>
+
+<%= link_to "◆トップページに戻る", root_path, class: "show-link" %>
