@@ -1,0 +1,26 @@
+<div class="content__title">
+  固定費登録
+</div>
+
+<%= form_tag('/costs', method: :cost) do %>
+  家賃・住宅ローン
+  <input type="text"  name="house">
+  車（駐車場代・ガソリン代など）
+  <input type="text"  name="car">
+  電気代
+  <input type="text"  name="electric">
+  水道代
+  <input type="text"  name="water">
+  ガス代
+  <input type="text"  name="gas">
+  通信費
+  <input type="text"  name="communication">
+  保険代
+  <input type="text"  name="insurance">
+  その他
+  <input type="text"  name="other">
+  
+  <input type="submit" value="登録">
+<% end %>
+
+<%= link_to "◆トップページに戻る", root_path, class: "show-link" %>
