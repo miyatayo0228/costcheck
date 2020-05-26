@@ -1,0 +1,19 @@
+<div class="postDate">
+  <div class="postDate-text">
+    <div class="text-time">
+      <%= @post.created_at %>
+    </div>
+    <div class="text-title">
+      <%= @post.title %>
+    </div>
+    <div class="text-date">
+      <%= simple_format @post.content %>
+    </div>
+    <div class="text-list__delete">
+      <%= link_to "削除", post_path(@post.id), method: :delete, class: "post__delete" %>
+    </div>
+    <div class="text-list">
+      <%= link_to "◆トップページに戻る", root_path, class: "post-show_link" %>
+    </div>
+  </div>
+</div>

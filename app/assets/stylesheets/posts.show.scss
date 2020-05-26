@@ -1,0 +1,63 @@
+.postDate {
+  width: 100%;
+  height: 100vh;
+  background-image: url("kelly-sikkema-Oz_J_FXKvIs-unsplash.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.postDate-text {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  margin-top: 270px;
+  margin-left: 350px;
+  text-align: center;
+}
+
+.text-time {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #000000;
+}
+
+.text-title {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #000000;
+}
+
+.text-date {
+  width: 100%;
+  height: 220px;
+  border-bottom: 1px solid #000000;
+}
+
+.text-list__delete {
+  
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 200px;
+  background-color: red;
+}
+
+.post__delete {
+  text-decoration: none;
+  color: white;
+  font-family: arial black;
+}
+
+.text-list {
+  margin-top: 20px;
+}
+
+.post-show_link {
+  text-decoration: none;
+  color: black;
+  font-family: arial black;
+}
+
+
