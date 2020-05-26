@@ -8,6 +8,7 @@
   width: 100%;
   height: 150px;
   display: flex;
+  background-color: burlywood;
 }
 
 .memo-link {
@@ -23,7 +24,12 @@
   height: 100%;
   background-image: url("jess-bailey-ycTvvg1mPU4-unsplash.jpg");
   background-size: cover;
-  // position: relative;
+}
+
+.memo-text_title {
+  width: 700px;
+  height: 50px;
+  margin-top: 50px;
 }
 
 .memo-form {
@@ -31,12 +37,8 @@
 }
 
 .memo-coment-center {
-  margin-top: 50px;
+  margin-top: 20px;
   width: 700px;
   height: 400px;
 }
 
-input {
-  width: 700px;
-  height: 100px;
-}

@@ -1,25 +1,14 @@
-<% @posts.each do |post| %>
-  <div class="content">
-    <div class="content__left">
-      <div class="content__left--image"></div>
-    </div>
-    <div class="content__right">
-      <div class="content__right__top">
-        <%= post.title %>
+<div class="post">
+  <div class="post-contet">
+    <% @posts.each do |post| %>
+      <div class="content">
+        <%= link_to post.title, post_path(post.id), class: "content--title" %>
       </div>
-      <div class="content__right__center">
-        <%= post.content %>
-      </div>
-      <div class="content__right__bottom">
-        <div class="content__right__bottom--date">
-          <%= post.created_at %>
-        </div>
-      </div>
-    </div>
+    <% end %>
   </div>
-<% end %>
-
-<%= link_to  "◆メモを書く", new_post_path, class: "show-link" %>
-
-<%= link_to "◆トップページに戻る", root_path, class: "show-link" %>
+  <div class="post-link">
+    <%= link_to  "◆メモを書く", new_post_path, class: "post-link_list" %>
+    <%= link_to "◆トップページに戻る", root_path, class: "post-link_list" %>
+  </div>
+</div>
 

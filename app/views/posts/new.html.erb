@@ -9,11 +9,14 @@
     <div class="memo-center">
       <div class="memo-form">
         <%= form_tag('/posts', method: :post) do %>
+        <div class="memo-title">
+          <input type="text" placeholder="title" name="title", class="memo-text_title"> 
+        </div>
         <div class="memo-coment">
-        <textarea placeholder="memo" rows="10" name="content", class="memo-coment-center"></textarea>
+          <textarea placeholder="memo" rows="10" name="content", class="memo-coment-center"></textarea>
         </div>
         <div class="memo-btn">
-        <input type="submit" value="保存" >
+          <input type="submit" value="保存" >
         </div>
         <% end %>
       </div>
