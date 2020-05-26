@@ -1,13 +1,21 @@
-<div class="content__title">
-  メモの作成
+<div class="memo-main">
+    <div class="memo-header">
+      <div class="title">
+      <h1>memo✒︎write</h1>
+      </div>
+      <%= link_to "◆トップページに戻る", root_path, class: "memo-link" %>
+    </div>
+
+    <div class="memo-center">
+      <div class="memo-form">
+        <%= form_tag('/posts', method: :post) do %>
+        <div class="memo-coment">
+        <textarea placeholder="memo" rows="10" name="content", class="memo-coment-center"></textarea>
+        </div>
+        <div class="memo-btn">
+        <input type="submit" value="保存" >
+        </div>
+        <% end %>
+      </div>
+    </div>
 </div>
-
-<%= form_tag('/posts', method: :post) do %>
-  <input type="text" placeholder="title" name="title">
-  <textarea placeholder="Comment" rows="10" name="content"></textarea>
-  <input type="submit" value="保存">
-<% end %>
-
-<%= link_to  "◆メモを見る", posts_path, class: "show-link" %>
-
-<%= link_to "◆トップページに戻る", root_path, class: "show-link" %>
