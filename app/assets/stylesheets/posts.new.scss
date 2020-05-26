@@ -1,0 +1,42 @@
+.memo-main {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.memo-header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+}
+
+.memo-link {
+  text-decoration: none;
+  color: black;
+  font-family: arial black;
+  line-height: 165px;
+  margin-left: 600px;
+}
+
+.memo-center {
+  width: 100%;
+  height: 100%;
+  background-image: url("jess-bailey-ycTvvg1mPU4-unsplash.jpg");
+  background-size: cover;
+  // position: relative;
+}
+
+.memo-form {
+  margin-left: 370px;
+}
+
+.memo-coment-center {
+  margin-top: 50px;
+  width: 700px;
+  height: 400px;
+}
+
+input {
+  width: 700px;
+  height: 100px;
+}
