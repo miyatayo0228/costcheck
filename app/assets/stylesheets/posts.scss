@@ -20,8 +20,9 @@
   text-decoration: none;
   color: black;
   font-family: arial black;
-  padding-left: 30px;
   line-height: 100px;
+  display: inline-block;
+  margin: auto;
 }
 
 .post-link {
@@ -37,4 +38,5 @@
   color: black;
   font-family: arial black;
   margin-left: 50px;
+  font-size: 20px;
 }

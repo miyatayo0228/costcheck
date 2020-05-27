@@ -1,7 +1,7 @@
 class CostsController < ApplicationController
   
   def index
-    @cost = Cost.last
+    @cost = current_user.costs.last
   end
 
   def new
@@ -15,7 +15,8 @@ class CostsController < ApplicationController
 
   private
   def cost_params
-    params.permit(:house, :car, :electric, :water, :gas, :communication, :insurance, :other)
+    params.permit(:house, :car, :electric, :water, :gas, :communication, :insurance, :other).merge(user_id: current_user.id)
   end
 
 end
+
