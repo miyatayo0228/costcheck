@@ -1,18 +1,29 @@
-<% @costs.each do |cost| %>
-  <div class="content">
-    <div class="content__left">
-    </div>
-    <div class="content__right">
-        <%= cost.house %>
-        <%= cost.car %>
-        <%= cost.electric %>
-        <%= cost.water %>
-        <%= cost.gas %>
-        <%= cost.communication %>
-        <%= cost.insurance %>
-        <%= cost.other %>
-    </div>
-  </div>
-<% end %>
 
-<%= link_to "◆トップページに戻る", root_path, class: "show-link" %>
+  <div class="cost-index_main">
+    <div class="main-cost_list">
+      <div class="cost-list_contet">
+        <h2>家賃・住宅ローン</h2>
+        <p><%= @cost.house %>円</p>
+        <h2>車・駐車場など</h2>
+        <p><%= @cost.car %>円<p>
+      </div>
+      <div class="cost-list_contet">
+        <h2>電気代</h2>
+        <p><%= @cost.electric %>円<p>
+        <h2>水道代</h2>
+        <p><%= @cost.water %>円<p>
+        <h2>ガズ代</h2>
+        <p><%= @cost.gas %>円<p>
+      </div>
+      <div class="cost-list_contet">
+        <h2>通信費</h2>
+        <p><%= @cost.communication %>円<p>
+        <h2>保険代</h2>
+        <p><%= @cost.insurance %>円<p>
+        <h2>その他</h2>
+        <p><%= @cost.other %>円<p>
+      </div>
+    <%= link_to "◆トップページに戻る", root_path, class: "show-link" %>
+  </div>
+
+

@@ -1,7 +1,7 @@
 class CostsController < ApplicationController
   
   def index
-    @costs = Cost.all
+    @cost = Cost.last
   end
 
   def new
