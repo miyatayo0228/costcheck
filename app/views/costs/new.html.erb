@@ -1,26 +1,39 @@
-<div class="content__title">
-  固定費登録
+<div class="cost-main">
+  <div class="cost-header">
+    <div class="title">
+      <h1>home🏡cost</h1>
+    </div>
+      <%= link_to "◆トップページに戻る", root_path, class: "memo-link" %>
+  </div>
+
+  <div class="cost-center">
+    <div class="cost-form">
+      <%= form_tag('/costs', method: :cost) do %>
+        <div class="cost-list">
+        <p>家賃・住宅ローン</p>
+        <input type="number"  name="house" placeholder="数字を入力">
+        <p>車・駐車場など</p>
+        <input type="number"  name="car" placeholder="数字を入力">
+        </div>
+        <div class="cost-list">
+        <p>電気代</p>
+        <input type="number"  name="electric" placeholder="数字を入力">
+        <p>水道代</p>
+        <input type="number"  name="water" placeholder="数字を入力">
+        <p>ガス代</p>
+        <input type="number"  name="gas" placeholder="数字を入力">
+        </div>
+        <div class="cost-list">
+        <p>通信費</p>
+        <input type="number"  name="communication" placeholder="数字を入力">
+        <p>保険代</p>
+        <input type="number"  name="insurance" placeholder="数字を入力">
+        <p>その他</p>
+        <input type="number"  name="other" placeholder="数字を入力">
+        </div>
+        <input type="submit" value="登録">
+      <% end %>
+    </div>
+  </div>
 </div>
 
-<%= form_tag('/costs', method: :cost) do %>
-  家賃・住宅ローン
-  <input type="text"  name="house">
-  車（駐車場代・ガソリン代など）
-  <input type="text"  name="car">
-  電気代
-  <input type="text"  name="electric">
-  水道代
-  <input type="text"  name="water">
-  ガス代
-  <input type="text"  name="gas">
-  通信費
-  <input type="text"  name="communication">
-  保険代
-  <input type="text"  name="insurance">
-  その他
-  <input type="text"  name="other">
-  
-  <input type="submit" value="登録">
-<% end %>
-
-<%= link_to "◆トップページに戻る", root_path, class: "show-link" %>
