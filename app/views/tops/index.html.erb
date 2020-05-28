@@ -27,8 +27,9 @@
         <% else %>
           <div class="grid-6">
             <%= link_to "◆このサイトについて", tops_path, class: "link" %>
-            <%= link_to "◆ログイン", new_user_session_path, class: 'link' %>
             <%= link_to "◆新規登録", new_user_registration_path, class: 'link' %>
+            <%= link_to "◆ログイン", new_user_session_path, class: 'link' %>
+            <%= link_to '◆ゲストログイン（閲覧用）', tops_guest_sign_in_path, method: :post, class: 'link' %>
           </div>
         <% end %>
         </div>
