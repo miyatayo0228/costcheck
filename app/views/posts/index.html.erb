@@ -5,6 +5,7 @@
         <%= link_to post.title, post_path(post.id), class: "content--title" %>
       </div>
     <% end %>
+    <%= paginate(@posts) %>
   </div>
   <div class="post-link">
     <%= link_to  "◆メモを書く", new_post_path, class: "post-link_list" %>
