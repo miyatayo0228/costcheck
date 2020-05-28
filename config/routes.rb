@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   root "tops#index"
+  post '/tops/guest_sign_in', to: 'tops#new_guest'
 
   resource :tops, only: [:show]
   resources :users, only: [:edit, :update]
