@@ -43,5 +43,16 @@
 
 .pagination {
   margin-top: 70px;
-  margin-left: 650px;
+  display: table;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.pagination>li>a { 
+  border: none;
+  color: #696969;
+}
+
+.pagination>li>a:hover {
+  border-radius: 15px;
 }
