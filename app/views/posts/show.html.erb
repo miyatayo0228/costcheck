@@ -10,7 +10,7 @@
       <%= simple_format @post.content %>
     </div>
     <div class="text-list__delete">
-      <%= link_to "削除", post_path(@post.id), method: :delete, class: "post__delete" %>
+      <%= link_to "削除", post_path(@post.id), method: :delete, data: {confirm: "削除しますか？"}, class: "post__delete" %>
     </div>
     <div class="text-list">
       <%= link_to "◆トップページに戻る", root_path, class: "post-show_link" %>
