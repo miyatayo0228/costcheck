@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: costcheck_production
-  username: costcheck
-  password: <%= ENV['COSTCHECK_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
