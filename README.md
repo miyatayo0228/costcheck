@@ -1,8 +1,7 @@
 # README
 
 # 🌎 アプリケーション名 Cost✂︎Check
-![fa472c8f4e9c14a315d02de85cfeaac9](https://user-images.githubusercontent.com/64825140/85509597-3eb62a80-b631-11ea-8ad3-b4f6ba7f6cb4.jpg)
-
+![8b820802e20eb9df137bf93e8bd319c9](https://user-images.githubusercontent.com/64825140/85580702-edc92500-b676-11ea-83d1-30ac9e1a3627.jpg)
 
 # 💬 What App?
 「Cost✂︎Check」とは、家計の固定費を管理するWEBサービスです！
@@ -24,18 +23,15 @@
 現状の固定費を把握し、見直す習慣を作り、無駄をなくすことを目的に制作しました！
 
 
-# 機能一覧
-
-# ◆固定費登録
-
+# 機能① ◆固定費登録
 ![d87ad091e1a4a129bb08752ae02669a4](https://user-images.githubusercontent.com/64825140/85515258-e171a780-b637-11ea-99d8-5ff42172bedf.jpg)
 
-# ◆メモを書く
-
+# 機能② ◆メモを書く
 ![fc7623bc69f9e24640d3569a96b78746](https://user-images.githubusercontent.com/64825140/85515911-9c01aa00-b638-11ea-80cc-eb4d41037102.jpg)
 
 
-# ◆LINE Notify + GoogleAppsScript + Googleカレンダーを使用したスケジュール管理機能
+# 機能③ ◆LINE Notify + GoogleAppsScript + Googleカレンダーを使用したスケジュール管理機能
+<img width="1395" alt="5244904b37651fc30b8c7024391844d3" src="https://user-images.githubusercontent.com/64825140/85580382-a3e03f00-b676-11ea-8f04-1437992130a5.png">
 
 
 # 使用技術

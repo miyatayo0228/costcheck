@@ -9,6 +9,16 @@
   height: 150px;
   display: flex;
   background-color: burlywood;
+  .title {
+    width: 450px;
+    height: 100%;
+    font-family: arial black;
+    font-size: 50px;
+    margin-left: 30px;
+    h1 {
+      line-height: 150px;
+    }
+  }
 }
 
 .memo-link {
