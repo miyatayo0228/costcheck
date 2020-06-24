@@ -39,34 +39,24 @@ Capistranoによる自動デプロイ
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false|
-|email|string|null: false, default: "", unique: true, add_index: true|
+|email|string|null: false, default: ""|
 |encrypted_password|string|null: false, default: ""|
-<!-- ### Association
-- has_many :items
-- has_many :cards -->
 
 ## postsテーブル
 |Column|Type|Options|
 |------|----|-------|
 |title|string|
-|content|string|
-
-<!-- ### Association
-- belongs_to_active_hash :prefecture
-- belongs_to :user -->
+|content|text|
 
 ## costsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|house|text|
-|car|text|
-|electric|text|
-|water|text|
-|gas|text|
-|communication|text|
-|insurance|text|
-|other|text|
+|house|integer|
+|car|integer|
+|electric|integer|
+|water|integer|
+|gas|integer|
+|communication|integer|
+|insurance|integer|
+|other|integer|
 
-<!-- ### Association
-- belongs_to :user
-- belongs_to :user -->
