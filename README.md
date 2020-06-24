@@ -1,4 +1,6 @@
 # README
+![fa472c8f4e9c14a315d02de85cfeaac9](https://user-images.githubusercontent.com/64825140/85509597-3eb62a80-b631-11ea-8ad3-b4f6ba7f6cb4.jpg)
+
 
 # アプリケーション名
 Cost✂︎Check
@@ -10,23 +12,20 @@ Cost✂︎Check
 このサイトを利用して、無駄を無くし、固定費を管理しましょう！
 
 # 機能一覧
-●haml/SASS記法と、命名規則BEMを使ったマークアップ
+◆ユーザー登録、ログイン機能
 
-●ユーザー登録、ログイン機能
+◆ゲストログイン機能
 
-●カテゴリー機能(ancestry)
+◆固定費登録機能
 
-●商品出品機能
+◆メモ書き・削除機能
 
-●商品購入機能
+◆LINE Notify + GoogleAppsScript + Googleカレンダーを使用したスケジュール管理機能
 
-●クレジットカード登録機能(PayJP)
-
-●ajaxを使用した非同期処理
 
 # 使用技術
-## ●データベース
-MySQL 5.6.47
+<!-- ## ●データベース
+MySQL 5.6.47 -->
 
 ## ●インフラ
 AWS EC2
