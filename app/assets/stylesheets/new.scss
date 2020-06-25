@@ -41,12 +41,12 @@
 .new-center {
   width: 100%;
   height: 100%;
-  background-image: url("10a53678bae7bc8f02edbfdbd828ba18.png");
+  background-image: image-url("10a53678bae7bc8f02edbfdbd828ba18.png");
   background-size: cover;
   &_line {
     width: 400px;
     height: 750px;
-    background-image: url("e50027351d2f2d77b7baa24794316469.png");
+    background-image: image-url("e50027351d2f2d77b7baa24794316469.png");
     background-size: cover;
     border-color: #ff0000;     
     border-style: solid;
