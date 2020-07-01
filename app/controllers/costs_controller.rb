@@ -1,7 +1,11 @@
 class CostsController < ApplicationController
   
   def index
-    @cost = current_user.costs.last
+    if  @cost = current_user.costs.last
+      
+    else
+      render new_cost_path
+    end
   end
 
   def new
